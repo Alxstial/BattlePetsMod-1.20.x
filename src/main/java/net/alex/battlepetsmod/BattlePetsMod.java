@@ -22,6 +22,7 @@ public class BattlePetsMod
     public static final String MOD_ID = "battlepets";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
+
     public BattlePetsMod(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
